@@ -1,0 +1,23 @@
+{
+    "buttons": [
+        {
+            "type": "text",
+            "value": "안녕하세요"
+        },
+        {
+            "type": "key",
+            "value": [
+                "CONTROL",
+                "C"
+            ]
+        },
+        {
+            "type": "text",
+            "value": "안녕하세요"
+        },
+        {
+            "type": "text",
+            "value": "Hello World"
+        }
+    ]
+}
