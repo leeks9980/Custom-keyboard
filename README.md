@@ -22,21 +22,31 @@ Windows 설정 프로그램을 통해 GUI에서 변경할 수 있습니다.
 
 [그림]
 
-PC Configuration
-        │
-        │ USB Serial
-        ▼
-Raspberry Pi Pico
-        │
-        ├── settings.json
-        ├── Button Input
-        └── EC11
-        │
-        ▼
-      USB HID
-        │
-        ▼
-        PC
+                 ┌─────────────────────────┐
+                 │   PC Configuration GUI  │
+                 └────────────┬────────────┘
+                              │
+                         USB Serial
+                              │
+                              ▼
+                 ┌─────────────────────────┐
+                 │    Raspberry Pi Pico    │
+                 │                         │
+                 │  ┌───────────────────┐  │
+                 │  │   settings.json   │  │
+                 │  └───────────────────┘  │
+                 │                         │
+                 │  Button Input           │
+                 │  EC11 Encoder           │
+                 └────────────┬────────────┘
+                              │
+                           USB HID
+                              │
+                              ▼
+                 ┌─────────────────────────┐
+                 │      Host PC            │
+                 │  Keyboard / Volume      │
+                 └─────────────────────────┘
 
 ## Hardware
 
