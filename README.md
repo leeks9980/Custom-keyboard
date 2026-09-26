@@ -20,7 +20,6 @@ Windows 설정 프로그램을 통해 GUI에서 변경할 수 있습니다.
 
 ## System Architecture
 
-[그림]
 
                  ┌─────────────────────────┐
                  │   PC Configuration GUI  │
