@@ -69,7 +69,8 @@ Windows 설정 프로그램을 통해 GUI에서 변경할 수 있습니다.
 
 ## Configuration GUI
 
-<img width="866" height="644" alt="스크린샷 2026-09-26 210745" src="https://github.com/user-attachments/assets/f480fc11-8a98-45a7-95b5-a6bb1f601aa7" />
+<img width="1084" height="753" alt="image" src="https://github.com/user-attachments/assets/5aa5a859-ed77-4370-adad-bd1f5a881142" />
+
 
 
 설정 프로그램은 Pico에 저장된 settings.json을
